@@ -1,25 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import { useState } from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Projects from "./pages/Projects"
+import PageNotFound from "./pages/PageNotFound"
 
 function App() {
   return (
-    <main className="min-h-screen grid place-items-center">
-      <section className="text-center space-y-2">
-        <h1 className="text-2xl font-semibold">React + TS + Tailwind ✅</h1>
-        <p className="text-sm text-slate-400">If you see dark background + centered text, Tailwind is working.</p>
-      </section>
-    </main>
-  );
-
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/" element={<About />} />
+        <Route path="/" element={<Projects />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+    </BrowserRouter>
+  )
   // return (
-  //   <div className="min-h-screen flex items-center justify-center bg-slate-900 text-white">
-  //     <h1 className="text-4xl font-bold text-emerald-400">
-  //       Tailwind is working 🎉
-  //     </h1>
-  //   </div>
-  // )
+  //   <main className="min-h-screen grid place-items-center">
+  //     <section className="text-center space-y-2">
+  //       <h1 className="text-4xl font-bold">React + TS + Tailwind ✅</h1>
+  //       <p className="text-base text-slate-400">If you see dark background + centered text, Tailwind is working.</p>
+  //     </section>
+  //   </main>
+  // );
   
   // const [count, setCount] = useState(0)
   // return (
