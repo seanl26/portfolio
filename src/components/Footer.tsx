@@ -5,7 +5,7 @@ function Footer() {
     <>
       <hr className="border-1 border-slate mx-auto" />
       <footer className="text-center text-xl">
-        <nav className="flex justify-center tracking-widest">
+        <nav className="flex justify-center font-bold tracking-medium">
 
           <div className="space-x-11">
             <a 

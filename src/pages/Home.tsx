@@ -51,6 +51,7 @@ function Home() {
     <Layout>
 
       <section className="w-full max-w-xl mx-auto space-y-8">
+        
 
         <div className="flex items-center justify-center space-x-8">
           <img
