@@ -1,4 +1,4 @@
-import resume from "../assets/Sean_Liu_Resume_2027.pdf"
+import resume from "../src/assets/Sean_Liu_Resume_2027.pdf"
 
 function Footer() {
   return (

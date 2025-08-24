@@ -1,6 +1,6 @@
 import Layout from "../components/PageLayout"
 import Footer from "../components/Footer";
-import me from "../assets/me.jpg"
+import me from "../src/assets/me.jpg"
 import { useState, useEffect, useMemo } from 'react'
 
 function Home() {
