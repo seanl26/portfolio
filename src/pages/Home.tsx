@@ -1,7 +1,8 @@
 import Layout from "../components/PageLayout"
-import Footer from "../components/Footer";
+import Footer from "../components/Footer"
 import me from "/me.jpg"
 import { useState, useEffect, useMemo } from 'react'
+import { Link } from 'react-router-dom'
 
 function Home() {
 
@@ -73,7 +74,7 @@ function Home() {
           <p> 
             i'm an undergraduate at the <a href="https://www.washington.edu" className="hover:text-blue-300 underline">university of washington</a> studying <a href="https://ischool.uw.edu/" className="hover:text-blue-300 underline">informatics</a>, concentrating in software development and data science! 
           </p>
-          <p className="text-center">→ &nbsp; check out my <span className="font-bold hover:text-blue-300 underline">projects</span> &nbsp; ←</p>
+          <p className="text-center">→ &nbsp; check out my <span className="font-bold hover:text-blue-300 underline"><Link to="/projects">projects</Link></span> &nbsp; ←</p>
           <p>i'm especially interested in AI/ML applications and data analysis, but love to learn a bit of everything! i am also passionate about sustainibility and accessibility.</p>
           <p>feel free to reach out through my links below, i would love to get to know you!</p>
         </div>
