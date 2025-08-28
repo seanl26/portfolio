@@ -7,7 +7,8 @@ function Layout({ children }: LayoutProps){
     <>
       <div className="min-h-screen bg-slate-950 text-slate-200 antialiased overflow-x-hidden">
         {/* add justify-center to main if needed */}
-        <main className="min-h-screen flex flex-col justify-center items-center space-y-5 py-12 sm:py-16 lg:py-20"> 
+        <main className="flex flex-col items-center space-y-8 py-12 sm:py-16 lg:py-20">
+        {/* <main className="min-h-screen flex flex-col justify-center items-center space-y-5 py-12 sm:py-16 lg:py-20">  */}
           { children }
         </main>
       </div>

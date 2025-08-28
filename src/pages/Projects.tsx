@@ -16,7 +16,7 @@ function Projects() {
     <Layout>
       
       {/* header */}
-      <header className="relative mx-auto w-11/12 sm:w-4/5 md:w-2/3 lg:w-1/2 xl:w-2/5 flex items-center justify-center">
+      <header className="relative mx-auto w-11/12 sm:w-3/4 md:w-7/12 lg:w-5/12 xl:w-2/6 flex items-center justify-center">
         <a  
           href="/"
           className="absolute left-4 sm:left-6 md:left-8 flex items-center"
@@ -37,17 +37,17 @@ function Projects() {
             />
           </svg>
         </a>
-        <h1 className="text-center font-semibold text-4xl md:text-5xl lg:text-6xl">
+        <h1 className="text-center font-semibold text-3xl md:text-4xl lg:text-5xl">
           Projects
         </h1>
       </header>
 
-      <hr className="border-1 mx-auto w-11/12 sm:w-4/5 md:w-2/3 lg:w-1/2 xl:w-2/5" />
+      <hr className="border-1 mx-auto w-11/12 sm:w-3/4 md:w-7/12 lg:w-5/12 xl:w-2/6" />
       
       {/* projects will go here */}
-      <section className="flex flex-col relative mx-auto w-11/12 sm:w-4/5 md:w-2/3 lg:w-1/2 xl:w-2/5 space-y-5">
+      <section className="flex flex-col relative mx-auto w-11/12 sm:w-3/4 md:w-7/12 lg:w-5/12 xl:w-2/6 space-y-5">
         
-        <div className="flex flex-col justify-start text-xl items-start pl-4 gap-5">
+        <div className="flex flex-col justify-start text-base sm:text-lg md:text-xl items-start pl-4 gap-5">
           <ProjectDiv 
               id="LogDetection"
               title="Log Anomaly Detection"
@@ -119,7 +119,7 @@ function Projects() {
         </div>
       </section>
 
-      <hr className="border-1 mx-auto w-11/12 sm:w-4/5 md:w-2/3 lg:w-1/2 xl:w-2/5" />
+      <hr className="border-1 mx-auto w-11/12 sm:w-3/4 md:w-7/12 lg:w-5/12 xl:w-2/6" />
 
       <Footer />
 
