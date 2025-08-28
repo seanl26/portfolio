@@ -76,8 +76,7 @@ function Home() {
       <hr className="border-1 mx-auto w-11/12 sm:w-3/4 md:w-7/12 lg:w-5/12 xl:w-2/6" />
 
       {/* main content for about goes here */}
-      {/* <section className="flex flex-col text-3xl font-semibold relative mx-auto w-11/12 sm:w-4/5 md:w-2/3 lg:w-1/2 xl:w-2/5 space-y-10"> */}
-      <section className="flex flex-col font-medium relative mx-auto w-11/12 sm:w-3/4 md:w-7/12 lg:w-5/12 xl:w-2/6 space-y-10 text-base sm:text-lg md:text-xl">
+      <section className="flex flex-col font-medium relative mx-auto w-11/12 sm:w-3/4 md:w-7/12 lg:w-5/12 xl:w-2/6 space-y-10 text-base sm:text-lg md:text-xl px-2 sm:px-5">
         <p> hey, welcome to my page! 👋</p>
         <p> 
           i'm an undergraduate at the <a href="https://www.washington.edu" className="hover:text-blue-300 underline">university of washington</a> studying <a href="https://ischool.uw.edu/" className="hover:text-blue-300 underline">informatics</a>, concentrating in software development and data science. 

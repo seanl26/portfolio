@@ -20,11 +20,11 @@ function ProjectDiv({ id, title, stack, description, site, link, site2, link2 }:
       <div className="flex w-full items-center justify-between">
 
         {/* project title and tech stack on left */}
-        <div className="flex flex-col items-baseline gap-2">
-          <span className="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+        <div className="flex flex-col items-baseline ">
+          <span className="font-bold text-base sm:text-lg md:text-xl">
             {title}
           </span>
-          <span className="italic text-lg sm:text-base md:text-lg lg:text-xl xl:text-2xl">
+          <span className="italic text-base sm:text-lg md:text-xl">
             {stack}
           </span>
         </div>
