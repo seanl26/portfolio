@@ -40,6 +40,8 @@ function Projects() {
       
       {/* projects will go here */}
 
+      <hr className="border-1 mx-auto w-11/12 sm:w-4/5 md:w-2/3 lg:w-1/2 xl:w-2/5" />
+
       <Footer />
 
     </Layout>
