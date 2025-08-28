@@ -87,8 +87,7 @@ function Home() {
         
       </section>
 
-      <hr className="border-1 mx-auto w-11/12 sm:w-3/4 md:w-7/12 lg:w-5/12 xl:w-2/6" />
-
+      <hr className="border-1 mx-auto mb-2 w-11/12 sm:w-3/4 md:w-7/12 lg:w-5/12 xl:w-2/6" />
       <Footer />
 
     </Layout>
