@@ -10,7 +10,7 @@ function Footer() {
             <a href="https://www.linkedin.com/in/sohyliu" className="hover:text-blue-300" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://github.com/seanl26" className="hover:text-blue-300" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href={resume} className="hover:text-blue-300" target="_blank" rel="noopener noreferrer">Résumé</a>
-            <a href="https://www.instagram.com/liuserpx/" className="hover:text-blue-300" target="_blank" rel="noopener noreferrer">Photos</a>
+            {/* <a href="https://www.instagram.com/liuserpx/" className="hover:text-blue-300" target="_blank" rel="noopener noreferrer">Photos</a> */}
           </div>
         </nav>
       </footer>
