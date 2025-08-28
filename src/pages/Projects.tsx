@@ -28,7 +28,7 @@ function Projects() {
             viewBox="0 0 24 24"
             strokeWidth="4"
             stroke="currentColor"
-            className="h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 lg:h-11 lg:w-11 hover:text-blue-300"
+            className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 lg:h-9 lg:w-9 hover:text-blue-300"
           >
             <path
               strokeLinecap="round"
@@ -47,7 +47,7 @@ function Projects() {
       {/* projects will go here */}
       <section className="flex flex-col relative mx-auto w-11/12 sm:w-3/4 md:w-7/12 lg:w-5/12 xl:w-2/6 space-y-5">
         
-        <div className="flex flex-col justify-start text-base sm:text-lg md:text-xl items-start pl-4 gap-5">
+        <div className="flex flex-col justify-start text-base sm:text-lg md:text-xl items-start pl-4 gap-4">
           <ProjectDiv 
               id="LogDetection"
               title="Log Anomaly Detection"
