@@ -68,7 +68,7 @@ function Projects() {
           />
           <ProjectDiv
             id="DataDashboard"
-            title="Analytics Dashboard"
+            title="Data Analytics Dashboard"
             stack=" - TS, Angular.js, GraphQL"
             description="LightSys Technology Services Spring Code-A-Thon Project. Built a real-time data analytics dashboard to monitor and visualize student attendance and retention rates for an online English tutoring platform. Connected frontend to backend with GraphQL queries."
             site="Image of Dashboard (code not public)"
@@ -76,7 +76,7 @@ function Projects() {
           />
           <ProjectDiv
             id="MarathonAnalysis"
-            title="Marathon Analysis"
+            title="Marathon Performance Analysis"
             stack=" - Python, NumPy, Altair"
             description="CSE 163 final Project. Created several visualizations with the Altair library displaying three centuries of marathon result times, analyzing trends by year, event, age, gende, and environmental factors like temperature."
             site="Project PDF"
@@ -98,7 +98,15 @@ function Projects() {
             site="website"
             link="https://ratretreat---info340.web.app"
           />
-          {/* add more project divs in the future! - add one for figma one too */}
+          <ProjectDiv
+            id="SaveMeBand"
+            title="Save-Me-Band"
+            stack=" - Figma, UX/UI Accessibility, Stakeholder Research "
+            description="INFO 200 Final Project. Created a UI/UX prototype of an app coupled to an adjustable band tracking a child's location. This product was meant to aid guardians and parents in ensuring the safety of their children through real-time tracking and location monitoring."
+            site="Figma Prototype"
+            link="https://www.figma.com/proto/3B27Rx3EizXH5T2uwfjWEs/LoFi-Wireframes?node-id=508-762"
+          /> 
+          {/* add more projects here */}
           {/* <ProjectDiv
             id=""
             title=""
