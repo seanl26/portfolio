@@ -78,7 +78,7 @@ function Projects() {
             id="MarathonAnalysis"
             title="Marathon Performance Analysis"
             stack=" - Python, NumPy, Altair"
-            description="CSE 163 final Project. Created several visualizations with the Altair library displaying three centuries of marathon result times, analyzing trends by year, event, age, gender, and environmental factors like temperature."
+            description="Created several visualizations with the Altair library displaying three centuries of marathon result times, analyzing trends by year, event, age, gender, and environmental factors like temperature."
             site="Project PDF"
             link={marathon}
           />
@@ -86,7 +86,7 @@ function Projects() {
             id="IncomeAndObesity"
             title="Income & Obesity Analysis"
             stack=" - R, ShinyApps"
-            description="INFO 201 Final Project. Developed a web application in R Shiny with several data visualizations hihglighting the relationship between household income and childhood obesity across all 50 US states."
+            description="Developed a web application in R Shiny with several data visualizations highlighting the relationship between household income and childhood obesity across all 50 US states."
             site="website"
             link="https://seanl26.shinyapps.io/Info201-Final-Project/"
           />
@@ -94,7 +94,7 @@ function Projects() {
             id="RatRetreat"
             title="RatRetreat"
             stack=" - React, HTML/CSS, Firebase"
-            description="INFO 340 Final Project. This project was mainly for frontend practice utilizing React, HTML, and CSS. It is a fake and comical website connecting users with pet rats to local people who are willing to take care of them while the owner is away."
+            description="This project was mainly for frontend practice utilizing React, HTML, and CSS. It is a fake and comical website connecting users with pet rats to local people who are willing to take care of them while the owner is away."
             site="website"
             link="https://ratretreat---info340.web.app"
           />
@@ -102,7 +102,7 @@ function Projects() {
             id="SaveMeBand"
             title="Save-Me-Band"
             stack=" - Figma, UX/UI Accessibility, Stakeholder Research "
-            description="INFO 200 Final Project. Created a UI/UX prototype of an app coupled to an adjustable band tracking a child's location. This product is meant to aid guardians and parents in ensuring the safety of their children through real-time tracking and location monitoring."
+            description="Created a UI/UX prototype of an app coupled to an adjustable band tracking a child's location. This product is meant to aid guardians and parents in ensuring the safety of their children through real-time tracking and location monitoring."
             site="Figma Prototype"
             link="https://www.figma.com/proto/3B27Rx3EizXH5T2uwfjWEs/LoFi-Wireframes?node-id=508-762"
           /> 
