@@ -7,17 +7,17 @@ import data_dash from "/example.png"
 import marathon from "/project.pdf"
 
 // note to self...
-// gap is for elements within a container. 
+// gap is for elements within a container.
 // space is between the children of a container.
 
 function Projects() {
 
   return (
     <Layout>
-      
+
       {/* header */}
       <header className="relative mx-auto w-11/12 sm:w-3/4 md:w-7/12 lg:w-5/12 xl:w-2/6 flex items-center justify-center">
-        <a  
+        <a
           href="/"
           className="absolute left-4 sm:left-6 md:left-8 flex items-center"
           aria-label="Return to Home"
@@ -43,12 +43,49 @@ function Projects() {
       </header>
 
       <hr className="border-1 mx-auto w-11/12 sm:w-3/4 md:w-7/12 lg:w-5/12 xl:w-2/6" />
-      
+
       {/* projects will go here */}
       <section className="flex flex-col relative mx-auto w-11/12 sm:w-3/4 md:w-7/12 lg:w-5/12 xl:w-2/6 space-y-5">
-        
+
         <div className="flex flex-col justify-start text-base sm:text-lg md:text-xl items-start pl-4 gap-4">
-          <ProjectDiv 
+
+          <ProjectDiv
+            id="recipeRecs"
+            title="Savorly"
+            stack=" - Python, PyTorch, PyTerrier, StreamLit"
+            description="Savorly is an interactive recipe recommendation app that blends keyword search and semantic embeddings to help users discover recipes through natural language queries. A relevance slider and personalized recommendations adapt results to both exploratory browsing and specific lookups."
+            site="Github"
+            link="https://github.com/seanl26/info376-Savorly"
+          />
+
+          <ProjectDiv
+            id="hungryhusky"
+            title="HungryHusky"
+            stack=" - Node.js, HTML/CSS, SQLite"
+            description="HungryHusky is a full-stack restaurant reservation platform that lets users browse and filter local restaurants, view detailed information and menus, and book future reservations. It supports authenticated user accounts, persistent sessions, dynamic ratings from user reviews, and personalized profiles for managing upcoming bookings."
+            site="Github"
+            link="https://github.com/seanl26/HungryHusky"
+          />
+
+          <ProjectDiv
+            id="kbbqManagement"
+            title="KBBQ Restaurant Management System"
+            stack=" - Node.js, Express.js, Azure Auth, HTML/CSS, MongoDB"
+            description="Built a fun little full-stack web application for kbbq managers to keep their kbbq restaurant organized. Managers can add/remove tables, clock servers in and out, and assign client parties to a table and server!"
+            site="Github"
+            link=""
+          />
+
+          <ProjectDiv
+            id="websharer"
+            title="Website Preview Sharer"
+            stack=" - Node.js, Express.js, Azure Auth, HTML/CSS, MongoDB"
+            description="A full-stack web application for sharing links with auto-generated previews, built with Azure authentication, a REST API, and a MongoDB-backed real-time feed with commenting/like features on each preview post."
+            site="website"
+            link="https://www.seanliu.me"
+          />
+
+          <ProjectDiv
               id="LogDetection"
               title="Log Anomaly Detection"
               stack=" - PyTorch, NumPy"
@@ -56,7 +93,7 @@ function Projects() {
               site="Documentation (code not public)"
               link={ids_doc}
           />
-          <ProjectDiv 
+          <ProjectDiv
             id="Bincredible"
             title="Bincredible"
             stack=" - Python, RNative, Ollama, YoloV8"
@@ -79,8 +116,10 @@ function Projects() {
             title="Marathon Performance Analysis"
             stack=" - Python, NumPy, Altair"
             description="Created several visualizations with the Altair library displaying three centuries of marathon result times, analyzing trends by year, event, age, gender, and environmental factors like temperature."
-            site="Project PDF"
+            site="Project Jupyter Notebook PDF"
             link={marathon}
+            site2="Github"
+            link2="https://github.com/seanl26/Analyzing-Running-Performance"
           />
           <ProjectDiv
             id="IncomeAndObesity"
@@ -105,7 +144,7 @@ function Projects() {
             description="Created a UI/UX prototype of an app coupled to an adjustable band tracking a child's location. This product is meant to aid guardians and parents in ensuring the safety of their children through real-time tracking and location monitoring."
             site="Figma Prototype"
             link="https://www.figma.com/proto/3B27Rx3EizXH5T2uwfjWEs/LoFi-Wireframes?node-id=508-762"
-          /> 
+          />
           {/* add more projects here */}
           {/* <ProjectDiv
             id=""
