@@ -140,10 +140,18 @@ function Projects() {
           <ProjectDiv
             id="SaveMeBand"
             title="Save-Me-Band"
-            stack=" - Figma, UX/UI Accessibility, Stakeholder Research "
+            stack=" - Figma, UX/UI Accessibility, Stakeholder Research"
             description="Created a UI/UX prototype of an app coupled to an adjustable band tracking a child's location. This product is meant to aid guardians and parents in ensuring the safety of their children through real-time tracking and location monitoring."
             site="Figma Prototype"
             link="https://www.figma.com/proto/3B27Rx3EizXH5T2uwfjWEs/LoFi-Wireframes?node-id=508-762"
+          />
+          <ProjectDiv
+            id="SaviFinance"
+            title="VaultLine API"
+            stack=" - Claude Code, Cursor, Vercel, Neon Database"
+            description="INFO491 Sponsored Capstone Project. A 'set-and-forget' financial data service designed for developers who need reliable, albeit delayed, financial data without the complexity of rate limits or the high cost of real-time feeds. We provide 1-day old (EOD) exchange rates for Fiat, Crypto, NASDAQ stocks, and Precious Metals via a simplified, heavily cached API. The service is subscription-based ($10/month flat) with a focus on 100% data availability to the end-user."
+            site="website"
+            link="https://vaultline-api.vercel.app"
           />
           {/* add more projects here */}
           {/* <ProjectDiv
